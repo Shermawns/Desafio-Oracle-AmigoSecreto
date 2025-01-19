@@ -31,6 +31,8 @@ function sortearAmigo(){
         const listaAmigos = document.getElementById("listaAmigos");
         listaAmigos.innerHTML = "";
 
+        amigos.length = 0; // Mudança para "limpar" o array, pois tinha dados de usuarios de sorteios passados em novos sorteios
+
     }else{
         alert("Por favor, para realizar o sorteio é necessário inserir o nome dos seus amigos.")
     }
