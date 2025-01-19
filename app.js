@@ -17,5 +17,21 @@ function adicionarAmigo(){
     }else{
         alert("Por favor, insira um nome válido")
     }
+}
 
+function sortearAmigo(){
+    if(amigos.length > 0){
+        const num = Math.floor(Math.random() * amigos.length);
+        const amgSort = amigos[num]
+        console.log(`Amigo sorteado: ${amgSort}`);
+
+        const resultado = document.getElementById("resultado")
+        resultado.textContent = `Amigo sorteado: ${amgSort}`;
+
+        const listaAmigos = document.getElementById("listaAmigos");
+        listaAmigos.innerHTML = "";
+
+    }else{
+        alert("Por favor, para realizar o sorteio é necessário inserir o nome dos seus amigos.")
+    }
 }
