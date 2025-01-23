@@ -3,6 +3,9 @@
         <h1>🎁 Projeto: Amigo Secreto</h1>
 <p>Este é um projeto desenvolvido como parte de um desafio da Oracle Next Education em parceria com a Alura, com o objetivo de testar os conhecimentos em lógica de programação. A tarefa foi criar a lógica de um site em JavaScript, utilizando os conceitos aprendidos nos cursos fornecidos pela plataforma. Você também pode acessar o site aqui por este <a href="https://desafio-oracle-amigo-secreto.vercel.app/" target="_blank">link</a>.</p>
 
+![image](https://github.com/user-attachments/assets/8f8cf750-6ce3-4bd4-85f9-2fe13ba323e1)
+
+
   </header>
 
 <main>
